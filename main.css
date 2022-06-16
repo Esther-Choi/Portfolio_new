@@ -899,7 +899,7 @@ a {
   }
 
   #exp > div:nth-child(2) .left {
-    width: 160px !important;
+    width: 199px !important;
   }
   #exp > div:nth-child(4) .left {
     width: 110px !important;
@@ -940,7 +940,7 @@ a {
     height: 90%;
   }
   #portfolio ul li {
-    padding-right: 0;
+    padding-right: 10px;
     margin-bottom: 20px;
   }
 
@@ -949,5 +949,9 @@ a {
   }
   #icons {
     margin-bottom: 40px;
+  }
+
+  #port_ul li h4 {
+    font-size: 14px;
   }
 }
