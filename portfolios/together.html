@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOGETHER</title>
+    <link rel="stylesheet" href="./page.css">
+    <script
+      src="https://kit.fontawesome.com/3087aeb32d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../main.js"></script>
+    <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>   
+</head>
+<style>
+  #description {
+    margin-top: 30px;
+    margin-left: 0;
+    width: auto;
+  }
+
+  #content {
+    flex-direction: column;
+  }
+  img {
+    box-shadow: 0 0 30px -5px rgb(0 0 0 / 25%);
+    border-radius: 5px !important;
+  }
+  .prev, .next {
+    color : black
+  }
+  @media screen and (max-width: 480px){
+    img {
+      width: 90% !important;
+    }
+    .prev {
+      margin-left: 0px;
+    }
+    .next {
+      margin-right: 0px;
+    }
+  }
+</style>
+<body>
+    <div id="container">
+        <div id="nav">
+            <button onclick="closePage('together')">
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+        </div>
+        <h1>TOGETHER - 직장인들을 위한 프로젝트 관리 웹사이트</h1>
+        <div id="content">
+            <div>
+                <!-- <img src="../img/petpal.png" alt="" width="510px"> -->
+                <div class="slideshow-container">
+                
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 6</div>
+                      <img src="../img/together1.png" style="width: 100%;">
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 6</div>
+                      <img src="../img/together2.png" style="width: 100%;">
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 6</div>
+                      <img src="../img/together3.png" style="width: 100%;">
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">4 / 6</div>
+                      <img src="../img/together4.png" style="width: 100%;">
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">5 / 6</div>
+                      <img src="../img/together5.png" style="width: 100%;">
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">6 / 6</div>
+                      <img src="../img/together6.png" style="width: 100%;">
+                    </div>
+                  
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  
+                  <!-- The dots/circles -->
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                  </div>
+            </div>
+            <!-- Slideshow container -->
+            <div id="description">
+                <div class="relative">
+                    <h3>Description</h3>
+                </div>
+                <ul id="info">
+                    <li>
+                        <i class="fas fa-user"></i>
+                        <span>ESTHER CHOI</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-globe"></i>
+                      <a href="https://github.com/Esther-Choi/Together" target="_blank">Github</a>
+                  </li>
+                    <li>
+                        <i class="fas fa-calendar"></i>
+                        <span>April, 2022 ~</span>
+                    </li>
+                </ul>
+                <p>투게더는 직장인/개발자들을 위한 프로젝트 관리 툴 웹사이트 입니다. 동료들과 채팅하고 캘린더, 보드, 차트 등 다양한 방식으로 프로젝트를 간편하게 관리할 수 있습니다.</p>
+                <p>해당 프로젝트는 아직 진행중인 프로젝트로 현재 Svelte 프레임워크를 사용해 프런트 UI를 구현해 놓은 상태이며 서버는 node, 디비는 MySql을 사용해서 백앤드 서버 구현중에 있습니다.</p>
+                <div class="relative">
+                    <h3 style="margin-bottom: 27px !important;">Tech Stacks</h3>
+                </div>
+                <ul id="tags">
+                    <li><span>HTML</span></li>
+                    <li><span>CSS</span></li>
+                    <li><span>Javascript</span></li>
+                    <li><span>Svelte</span></li>
+                    <li><span>node</span></li>
+                    <li><span>Rest API</span></li>
+                    <li><span>MySql</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "flex";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</html>

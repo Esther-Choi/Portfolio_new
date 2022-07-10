@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    <title>ESTHER CHOI</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,14 +37,14 @@
                         <a href="javascript:void(0)" onclick="moveMobile(this)"  id="mobile_portfolio">Portfolio</a>
                     </div>
                     <div id="icons">
-                        <a href="https://github.com/Esther-Choi"><i class="fab fa-github"></i></a>
-                        <a href="https://www.instagram.com/dev_esther_/"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/yulimchoi/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Esther-Choi" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/dev_esther_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/yulimchoi/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         
                         
                     </div>
                     <div id="contact">
-                        <a href="mailto:﻿"akdlwb33@gmail.com" >
+                        <a href="mailto:﻿"akdlwb33@gmail.com" target="_blank">
                             <i class="far fa-envelope"></i>
                             <span>Contact Me</span>
                         </a>
@@ -204,7 +204,7 @@
                                             </div>
                                             <div class="skill_percent">
                                                 <div style="width: 95%;"></div>
-                                            </div>
+                                            </div> 
                                         </li>
                                         <li>
                                             <div class="skill_text">
@@ -303,28 +303,15 @@
                                     <ion-icon name="document-outline"></ion-icon>
                                 </li>
                             </a>
-                            <a href="">
-                                <li onmouseover="showIcon(this)" onmouseout="hideIcon(this)">
-                                    <h4> > ILHAJOB - 사회초년생들을 위한 쉽고 빠른 구인구직 사이트</h4>
+                            <a onclick="showPage('ilhajob')">
+                                <li onmouseover="showIcon('this')" onmouseout="hideIcon(this)">
+                                    <h4> > ILHAJOB - 사회초년생들을 위한 쉽고 빠른 구인구직 웹사이트</h4>
                                     <ion-icon class="paper_i"  onmouseout="hideIcon(this)"name="document-outline"></ion-icon>
                                 </li>
                             </a>
-                            <a href="">
-                            <a href="">
+                            <a onclick="showPage('together')">
                                 <li onmouseover="showIcon(this)" onmouseout="hideIcon(this)">
-                                    <h4> > CHROME MOMENTUM - 다섯가지 기능을 가진 크롬 모멘텀</h4>
-                                    <ion-icon class="paper_i"  name="document-outline"></ion-icon>
-                                </li>
-                            </a>
-                            <a href="">
-                                <li onmouseover="showIcon(this)" onmouseout="hideIcon(this)">
-                                    <h4> > YOUTUBE CLONE - 유튜브를 완벽 복제한 반응형 유튜브 클론</h4>
-                                    <ion-icon class="paper_i"  name="document-outline"></ion-icon>
-                                </li>
-                            </a>
-                            <a href="">
-                                <li onmouseover="showIcon(this)"onmouseout="hideIcon(this)">
-                                    <h4> > KAKAOTALK CLONE - 기능까지 완벽한 카카오톡 복제</h4>
+                                    <h4> > TOGETHER - 직장인들을 위한 프로젝트 관리 웹사이트</h4>
                                     <ion-icon class="paper_i"  name="document-outline"></ion-icon>
                                 </li>
                             </a>
@@ -353,6 +340,8 @@
         </div>
     </div>
         <iframe id="petpal" src="./portfolios/petpal.html" style="display: none;"></iframe>
+        <iframe id="ilhajob" src="./portfolios/ilhajob.html" style="display: none;"></iframe>
+        <iframe id="together" src="./portfolios/together.html" style="display: none;"></iframe>
 </body>
 <script src="./main.js"></script>
 </html>

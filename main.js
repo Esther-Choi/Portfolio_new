@@ -53,15 +53,41 @@
     })
 
     function showPage(page){
-        $('#petpal').attr('class','appear')
-        $("#petpal").show();
+        if(page == 'petpal'){
+            $('#petpal').attr('class','appear')
+            $("#petpal").show();
+            
+        }else if(page == 'ilhajob'){
+            $('#ilhajob').attr('class','appear')
+            $("#ilhajob").show();
+            
+        }else if(page == 'together'){
+            $('#together').attr('class','appear')
+            $("#together").show();
+
+        }
     }
 
     function closePage(page){
-        $('#petpal', parent.document).attr('class', 'disappear');
-        setTimeout(() => {
-            $('#petpal', parent.document).css('display', 'none');
-        }, 1000);
+        if(page == 'petpal'){
+
+            $('#petpal', parent.document).attr('class', 'disappear');
+            setTimeout(() => {
+                $('#petpal', parent.document).css('display', 'none');
+            }, 1000);
+        }else if(page == 'ilhajob'){
+            $('#ilhajob', parent.document).attr('class', 'disappear');
+            setTimeout(() => {
+                $('#ilhajob', parent.document).css('display', 'none');
+            }, 1000);
+            
+        }else if(page == 'together'){
+            $('#together', parent.document).attr('class', 'disappear');
+            setTimeout(() => {
+                $('#together', parent.document).css('display', 'none');
+            }, 1000);
+            
+        }
     }
 
     function showIcon(e){
