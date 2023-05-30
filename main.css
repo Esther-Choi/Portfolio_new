@@ -26,7 +26,7 @@ a {
 #container {
   width: 78%;
   height: 80%;
-  background: linear-gradient(#eb9494, #fccf4b);
+  background: linear-gradient(#91ac9a, #8fb9ca);
   border-radius: 30px;
   display: flex;
   box-shadow: 0 0 100px -5px rgb(0 0 0 / 25%);
@@ -127,7 +127,7 @@ a {
 
 #contact a:hover {
   background-color: white;
-  color: #fccf4b;
+  color: #8fb8ca;
 }
 
 #copyright {
@@ -178,7 +178,7 @@ a {
   width: 7px;
 }
 .show_scroll::-webkit-scrollbar-thumb:hover {
-  background-color: #eb9494;
+  background-color: #91ac9a;
   border-radius: 10px;
 }
 .show_scroll::-webkit-scrollbar-track:hover {
@@ -217,7 +217,7 @@ a {
 }
 /* about me */
 .color_text {
-  color: #eb9494;
+  color: #91ac9a;
 }
 
 #me::after {
@@ -230,22 +230,22 @@ a {
   width: 50px;
   background-image: -webkit-repeating-radial-gradient(
     center center,
-    #eb9494,
-    #eb9494 1px,
+    #91ac9a,
+    #91ac9a 1px,
     transparent 0px,
     transparent 100%
   );
   background-image: -moz-repeating-radial-gradient(
     center center,
-    #eb9494,
-    #eb9494 1px,
+    #91ac9a,
+    #91ac9a 1px,
     transparent 0px,
     transparent 100%
   );
   background-image: -ms-repeating-radial-gradient(
     center center,
-    #eb9494,
-    #eb9494 1px,
+    #91ac9a,
+    #91ac9a 1px,
     transparent 0px,
     transparent 100%
   );
@@ -287,7 +287,7 @@ a {
 }
 
 .info_title {
-  color: #eb9494;
+  color: #91ac9a;
   font-weight: 600;
   margin-right: 8px;
 }
@@ -320,22 +320,22 @@ a {
   width: 30px;
   background-image: -webkit-repeating-radial-gradient(
     center center,
-    #eb9494,
-    #eb9494 1px,
+    #91ac9a,
+    #91ac9a 1px,
     transparent 0px,
     transparent 100%
   );
   background-image: -moz-repeating-radial-gradient(
     center center,
-    #eb9494,
-    #eb9494 1px,
+    #91ac9a,
+    #91ac9a 1px,
     transparent 0px,
     transparent 100%
   );
   background-image: -ms-repeating-radial-gradient(
     center center,
-    #eb9494,
-    #eb9494 1px,
+    #91ac9a,
+    #91ac9a 1px,
     transparent 0px,
     transparent 100%
   );
@@ -388,7 +388,7 @@ a {
   position: absolute;
   margin-left: -8px;
   border-radius: 10px;
-  background-color: #eb9494;
+  background-color: #91ac9a;
   opacity: 0.25;
   z-index: 0;
 }
@@ -403,7 +403,7 @@ a {
   margin-left: -4px;
   background-color: #fff;
   border-radius: 10px;
-  border: 2px solid #eb9494;
+  border: 2px solid #91ac9a;
   z-index: 1;
 }
 
@@ -462,7 +462,7 @@ a {
   position: relative;
   display: inline-block;
   background-color: #fff;
-  border: 1px solid #eb9494;
+  border: 1px solid #91ac9a;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
@@ -477,11 +477,11 @@ a {
 .skill_percent::before {
   content: "";
   position: absolute;
-  background-color: #eb9494;
+  background-color: #91ac9a;
 }
 
 .skill_percent div {
-  background-color: #eb9494;
+  background-color: #91ac9a;
   border: 2px solid #fff;
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
@@ -497,7 +497,7 @@ a {
   justify-content: flex-start !important;
 }
 #knowledge li {
-  background-color: #eb9494;
+  background-color: #91ac9a;
   border-radius: 3px;
   color: #fff;
   padding: 0px 10px;
@@ -535,7 +535,7 @@ a {
 }
 
 #port_ul li ion-icon {
-  color: #eb9494;
+  color: #91ac9a;
   visibility: hidden;
 }
 
@@ -559,7 +559,7 @@ a {
 }
 
 #menu a:hover {
-  color: #fccf4b;
+  color: #8fb8ca;
 }
 
 #arrow a {
@@ -568,7 +568,7 @@ a {
 }
 
 #arrow a:hover {
-  color: #eb9494;
+  color: #91ac9a;
 }
 
 #menuContainer {
@@ -580,7 +580,7 @@ a {
 }
 
 .active {
-  color: #eb9494 !important;
+  color: #91ac9a !important;
 }
 
 .menu_text {
@@ -590,7 +590,7 @@ a {
   visibility: hidden;
   color: #fff;
   padding: 2px 10px;
-  background-color: #eb9494;
+  background-color: #91ac9a;
   /* white-space: nowrap; */
   /* margin-left: -85px;
   margin-top: 5px; */
@@ -828,7 +828,7 @@ a {
   #profile {
     /* display: none; */
     position: fixed;
-    background: linear-gradient(#eb9494, #fccf4b);
+    background: linear-gradient(#91ac9a, #8fb8ca);
     z-index: 10;
     height: 100%;
     right: 0;
@@ -871,7 +871,7 @@ a {
   .mobile-bar {
     display: block;
     position: fixed;
-    background-color: #eb9494;
+    background-color: #91ac9a;
     border: none;
     color: white;
     font-size: 25px;
@@ -883,7 +883,7 @@ a {
 
   #arrow {
     padding: 13px 13px 5px 13px;
-    border: 2px solid #eb9494;
+    border: 2px solid #91ac9a;
   }
 
   #arrow a {

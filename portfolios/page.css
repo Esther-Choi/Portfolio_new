@@ -8,22 +8,22 @@ h3::after {
   width: 30px;
   background-image: -webkit-repeating-radial-gradient(
     center center,
-    #eb9494,
-    #eb9494 1px,
+    #91ac9a,
+    #91ac9a 1px,
     transparent 0px,
     transparent 100%
   );
   background-image: -moz-repeating-radial-gradient(
     center center,
-    #eb9494,
-    #eb9494 1px,
+    #91ac9a,
+    #91ac9a 1px,
     transparent 0px,
     transparent 100%
   );
   background-image: -ms-repeating-radial-gradient(
     center center,
-    #eb9494,
-    #eb9494 1px,
+    #91ac9a,
+    #91ac9a 1px,
     transparent 0px,
     transparent 100%
   );
@@ -68,7 +68,7 @@ body {
 }
 
 #nav button:hover {
-  background-color: #eb9494;
+  background-color: #91ac9a;
   color: white;
 }
 
@@ -112,7 +112,7 @@ h3 {
 }
 
 #info li i {
-  color: #eb9494;
+  color: #91ac9a;
   margin-right: 5px;
 }
 
@@ -245,7 +245,7 @@ h3 {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: #eb9494;
+  background-color: #91ac9a;
 }
 
 /* Caption text */
