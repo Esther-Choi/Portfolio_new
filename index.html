@@ -26,7 +26,7 @@
             <i class="fas fa-times"></i>
             <div>
                 <div id="avatar">
-                    <img src="./img/avatar.jpeg" alt="">
+                    <img src="./img/avatar.JPG" alt="">
                 </div>
                 <div id="texts">
                     <h1 style="font-weight: 500; font-size: 30px; margin: 0;">ESTHER CHOI</h1>
@@ -68,7 +68,7 @@
                         </div>
                         <div id="abt_container">
                             <div id="info">
-                                <p class="left_content">저는 백앤드와 프론트앤드 개발 경험을 모두 보유하고 있습니다.<br/> 백앤드의 실무 경험은 짧았지만 오래 공부한 분야이고 프론트앤드는 10개월 정도의 실무 경험을 가지고 있습니다. <br/><br/>
+                                <p class="left_content">저는 백앤드와 프론트앤드 개발 경험을 모두 보유하고 있습니다.<br/> 백앤드의 실무 경험은 짧았지만 오래 공부했던 분야이고 프론트앤드는 총 2년 정도의 실무 경험을 가지고 있습니다. <br/><br/>
 
                                     실무 기간 동안 실제 대형 프로젝트에 웹 개발자로 투입되어 개발을 진행한 경험이 있으며 그 외에도 회사에서 진행한 여러 프로젝트들에 웹 개발자로 투입되어 개발을 진행 했습니다. <br/><br/>
                                     
@@ -102,6 +102,23 @@
                                         <h3>Experience</h3>
                                     </div>
                                     <div >
+                                        <div class="timeline">
+                                            <div class="left">
+                                                <h5 class="date">2022.08 ~ ing</h5>
+                                                <span class="company">CRAA</span>
+                                            </div>
+                                            <div class="relative" style="width: 1px;
+                                            background-color: #eee;">
+                                                <div class="divider"></div>
+                                            </div>
+                                            <div class="right">
+                                                <h4 class="position">Full-Stack Web Developer</h4>
+                                                <p class="role">
+                                                    임상 연구 웹기반 사이트로 어드민, 유저, 트레이닝, 클라이언트 총 4개의 포털을 개발.</br>
+                                                    React / Typescript / NestJS / NextJS / MongoDB
+                                                </span>
+                                            </div>
+                                        </div>
                                         <div class="timeline">
                                             <div class="left">
                                                 <h5 class="date">2021.08 - 2022.06</h5>
@@ -208,7 +225,16 @@
                                         </li>
                                         <li>
                                             <div class="skill_text">
-                                                <h4 class="skill_name">Svelte</h4>
+                                                <h4 class="skill_name">React</h4>
+                                                <span class="percent">95%</span>
+                                            </div>
+                                            <div class="skill_percent">
+                                                <div style="width: 95%;"></div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="skill_text">
+                                                <h4 class="skill_name">Javascript/Typescript</h4>
                                                 <span class="percent">90%</span>
                                             </div>
                                             <div class="skill_percent">
@@ -217,7 +243,7 @@
                                         </li>
                                         <li>
                                             <div class="skill_text">
-                                                <h4 class="skill_name">DBMS</h4>
+                                                <h4 class="skill_name">NestJS</h4>
                                                 <span class="percent">85%</span>
                                             </div>
                                             <div class="skill_percent">
@@ -226,38 +252,11 @@
                                         </li>
                                         <li>
                                             <div class="skill_text">
-                                                <h4 class="skill_name">Java</h4>
-                                                <span class="percent">80%</span>
+                                                <h4 class="skill_name">MongoDB</h4>
+                                                <span class="percent">85%</span>
                                             </div>
                                             <div class="skill_percent">
-                                                <div style="width: 80%;"></div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="skill_text">
-                                                <h4 class="skill_name">JSP</h4>
-                                                <span class="percent">80%</span>
-                                            </div>
-                                            <div class="skill_percent">
-                                                <div style="width: 80%;"></div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="skill_text">
-                                                <h4 class="skill_name">Javascript & JQuery</h4>
-                                                <span class="percent">80%</span>
-                                            </div>
-                                            <div class="skill_percent">
-                                                <div style="width: 80%;"></div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="skill_text">
-                                                <h4 class="skill_name">Spring Framework</h4>
-                                                <span class="percent">75%</span>
-                                            </div>
-                                            <div class="skill_percent">
-                                                <div style="width: 75%;"></div>
+                                                <div style="width: 85%;"></div>
                                             </div>
                                         </li>
                                     </ul>
@@ -265,6 +264,10 @@
                                         <h3>My <span class="color_text">Knowledges</span></h3>
                                     </div>
                                     <ul id="knowledge">
+                                        <li>React</li>
+                                        <li>Typescript</li>
+                                        <li>MongoDB</li>
+                                        <li>NestJS</li>
                                         <li>Linux</li>
                                         <li>Java</li>
                                         <li>Javascript</li>
@@ -300,6 +303,12 @@
                             <a onclick="showPage('petpal')">
                                 <li onmouseover="showIcon(this)" onmouseout="hideIcon(this)">
                                     <h4> > PETPAL - 강아지 산책 친구 구하기 어플</h4>
+                                    <ion-icon name="document-outline"></ion-icon>
+                                </li>
+                            </a>
+                            <a onclick="showPage('cleanapp')">
+                                <li onmouseover="showIcon(this)" onmouseout="hideIcon(this)">
+                                    <h4> > ClanApp - 악성 청소앱 삭제 어플</h4>
                                     <ion-icon name="document-outline"></ion-icon>
                                 </li>
                             </a>
