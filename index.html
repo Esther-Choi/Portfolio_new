@@ -16,9 +16,8 @@
       src="https://kit.fontawesome.com/3087aeb32d.js"
       crossorigin="anonymous"
     ></script>
-    <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
-    
 </head>
+<script src="http://code.jquery.com/jquery-latest.js"></script> 
 <body>
     <div id="container">
         <button class="mobile-bar"><i class="fas fa-bars"></i></button>
@@ -52,7 +51,7 @@
                 </div>
             </div>
             <div id="copyright">
-                <p><i class="far fa-copyright"></i> 2022 All rights reserved.</p>
+                <p><i class="far fa-copyright"></i> 2024 All rights reserved.</p>
             </div>
         </div>
         <div id="content" >
@@ -68,7 +67,7 @@
                         </div>
                         <div id="abt_container">
                             <div id="info">
-                                <p class="left_content">저는 백앤드와 프론트앤드 개발 경험을 모두 보유하고 있습니다.<br/> 백앤드의 실무 경험은 짧았지만 오래 공부했던 분야이고 프론트앤드는 총 2년 정도의 실무 경험을 가지고 있습니다. <br/><br/>
+                                <p class="left_content">저는 백앤드와 프론트앤드 개발 경험을 모두 보유하고 있습니다.<br/> 프론트앤드는 총 2년 정도의 실무 경험을 가지고 있으며 현 직장에서는 프론트와 백앤드 API 작업을 동시에 하고 있습니다. <br/><br/>
 
                                     실무 기간 동안 실제 대형 프로젝트에 웹 개발자로 투입되어 개발을 진행한 경험이 있으며 그 외에도 회사에서 진행한 여러 프로젝트들에 웹 개발자로 투입되어 개발을 진행 했습니다. <br/><br/>
                                     
@@ -80,11 +79,11 @@
                                         </li>
                                         <li>
                                             <span class="info_title">Age</span>
-                                            <span class="info_cont">25</span>
+                                            <span class="info_cont">26</span>
                                         </li>
                                         <li>
                                             <span class="info_title">Address</span>
-                                            <span class="info_cont">Incheon, South Korea</span>
+                                            <span class="info_cont">Seoul, South Korea</span>
                                         </li>
                                         <li>
                                             <span class="info_title">E-mail</span>
@@ -104,7 +103,24 @@
                                     <div >
                                         <div class="timeline">
                                             <div class="left">
-                                                <h5 class="date">2022.08 ~ ing</h5>
+                                                <h5 class="date">2023.07 ~ ing</h5>
+                                                <span class="company">Pandarank</span>
+                                            </div>
+                                            <div class="relative" style="width: 1px;
+                                            background-color: #eee;">
+                                                <div class="divider"></div>
+                                            </div>
+                                            <div class="right">
+                                                <h4 class="position">Full-Stack Web Developer</h4>
+                                                <p class="role">
+                                                    데이터 기반 이커머스 마케팅 플랫폼 판다랭크에서 퍼블리싱, 프런트 구현과 DB 관리 및 Node 기반 API 개발. </br>
+                                                    JQuery / Javascript / Node / MongoDB
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="timeline">
+                                            <div class="left">
+                                                <h5 class="date">2022.08 ~ 2023.06</h5>
                                                 <span class="company">CRAA</span>
                                             </div>
                                             <div class="relative" style="width: 1px;
@@ -217,10 +233,10 @@
                                         <li>
                                             <div class="skill_text">
                                                 <h4 class="skill_name">HTML & CSS</h4>
-                                                <span class="percent">95%</span>
+                                                <span class="percent">99%</span>
                                             </div>
                                             <div class="skill_percent">
-                                                <div style="width: 95%;"></div>
+                                                <div style="width: 99%;"></div>
                                             </div> 
                                         </li>
                                         <li>
@@ -235,6 +251,15 @@
                                         <li>
                                             <div class="skill_text">
                                                 <h4 class="skill_name">Javascript/Typescript</h4>
+                                                <span class="percent">95%</span>
+                                            </div>
+                                            <div class="skill_percent">
+                                                <div style="width: 95%;"></div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="skill_text">
+                                                <h4 class="skill_name">MongoDB</h4>
                                                 <span class="percent">90%</span>
                                             </div>
                                             <div class="skill_percent">
@@ -244,15 +269,6 @@
                                         <li>
                                             <div class="skill_text">
                                                 <h4 class="skill_name">NestJS</h4>
-                                                <span class="percent">85%</span>
-                                            </div>
-                                            <div class="skill_percent">
-                                                <div style="width: 85%;"></div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="skill_text">
-                                                <h4 class="skill_name">MongoDB</h4>
                                                 <span class="percent">85%</span>
                                             </div>
                                             <div class="skill_percent">
@@ -275,6 +291,7 @@
                                         <li>RestAPI</li>
                                         <li>HTML</li>
                                         <li>CSS</li>
+                                        <li>EJS</li>
                                         <li>Svelte</li>
                                         <li>Spring Framework</li>
                                         <li>JSP</li>
@@ -300,6 +317,18 @@
                     </div>
                     <div id="port_container">
                         <ul id="port_ul">
+                            <a onclick="showPage('dicetomeetyou')">
+                                <li onmouseover="showIcon(this)" onmouseout="hideIcon(this)">
+                                    <h4> > DICE TO MEET YOU - TTRPG 플랫폼</h4>
+                                    <ion-icon name="document-outline"></ion-icon>
+                                </li>
+                            </a>
+                            <a onclick="showPage('reward')">
+                                <li onmouseover="showIcon(this)" onmouseout="hideIcon(this)">
+                                    <h4> > 판다랭크 체험단 - 체험단 서비스</h4>
+                                    <ion-icon name="document-outline"></ion-icon>
+                                </li>
+                            </a>
                             <a onclick="showPage('petpal')">
                                 <li onmouseover="showIcon(this)" onmouseout="hideIcon(this)">
                                     <h4> > PETPAL - 강아지 산책 친구 구하기 어플</h4>
@@ -352,6 +381,8 @@
         <iframe id="ilhajob" src="./portfolios/ilhajob.html" style="display: none;"></iframe>
         <iframe id="together" src="./portfolios/together.html" style="display: none;"></iframe>
         <iframe id="cleanapp" src="./portfolios/cleanapp.html" style="display: none;"></iframe>
+        <iframe id="dicetomeetyou" src="./portfolios/dicetomeetyou.html" style="display: none;"></iframe>
+        <iframe id="reward" src="./portfolios/reward.html" style="display: none;"></iframe>
 </body>
 <script src="./main.js"></script>
 </html>

@@ -50,19 +50,8 @@ $(".fa-times").on("click", function () {
 });
 
 function showPage(page) {
-  if (page == "petpal") {
-    $("#petpal").attr("class", "appear");
-    $("#petpal").show();
-  } else if (page == "ilhajob") {
-    $("#ilhajob").attr("class", "appear");
-    $("#ilhajob").show();
-  } else if (page == "together") {
-    $("#together").attr("class", "appear");
-    $("#together").show();
-  } else if (page == "cleanapp") {
-    $("#cleanapp").attr("class", "appear");
-    $("#cleanapp").show();
-  }
+  $(`#${page}`).attr("class", "appear");
+  $(`#${page}`).show();
 }
 
 function closePage(page) {
