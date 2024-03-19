@@ -50,8 +50,25 @@ $(".fa-times").on("click", function () {
 });
 
 function showPage(page) {
-  $(`#${page}`).attr("class", "appear");
-  $(`#${page}`).show();
+  if (page == "petpal") {
+    $("#petpal").attr("class", "appear");
+    $("#petpal").show();
+  } else if (page == "ilhajob") {
+    $("#ilhajob").attr("class", "appear");
+    $("#ilhajob").show();
+  } else if (page == "together") {
+    $("#together").attr("class", "appear");
+    $("#together").show();
+  } else if (page == "cleanapp") {
+    $("#cleanapp").attr("class", "appear");
+    $("#cleanapp").show();
+  } else if (page == "dicetomeetyou") {
+    $("#dicetomeetyou").attr("class", "appear");
+    $("#dicetomeetyou").show();
+  } else if (page == "reward") {
+    $("#reward").attr("class", "appear");
+    $("#reward").show();
+  }
 }
 
 function closePage(page) {
@@ -74,6 +91,16 @@ function closePage(page) {
     $("#cleanapp", parent.document).attr("class", "disappear");
     setTimeout(() => {
       $("#cleanapp", parent.document).css("display", "none");
+    }, 1000);
+  } else if (page == "dicetomeetyou") {
+    $("#dicetomeetyou", parent.document).attr("class", "disappear");
+    setTimeout(() => {
+      $("#dicetomeetyou", parent.document).css("display", "none");
+    }, 1000);
+  } else if (page == "reward") {
+    $("#reward", parent.document).attr("class", "disappear");
+    setTimeout(() => {
+      $("#reward", parent.document).css("display", "none");
     }, 1000);
   }
 }
