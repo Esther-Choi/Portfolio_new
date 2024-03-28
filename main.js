@@ -68,6 +68,15 @@ function showPage(page) {
   } else if (page == "reward") {
     $("#reward").attr("class", "appear");
     $("#reward").show();
+  } else if (page == "influencer") {
+    $("#influencer").attr("class", "appear");
+    $("#influencer").show();
+  } else if (page == "academy") {
+    $("#academy").attr("class", "appear");
+    $("#academy").show();
+  } else if (page == "naverpay") {
+    $("#naverpay").attr("class", "appear");
+    $("#naverpay").show();
   }
 }
 
@@ -101,6 +110,21 @@ function closePage(page) {
     $("#reward", parent.document).attr("class", "disappear");
     setTimeout(() => {
       $("#reward", parent.document).css("display", "none");
+    }, 1000);
+  } else if (page == "influencer") {
+    $("#influencer", parent.document).attr("class", "disappear");
+    setTimeout(() => {
+      $("#influencer", parent.document).css("display", "none");
+    }, 1000);
+  } else if (page == "academy") {
+    $("#academy", parent.document).attr("class", "disappear");
+    setTimeout(() => {
+      $("#academy", parent.document).css("display", "none");
+    }, 1000);
+  } else if (page == "naverpay") {
+    $("#naverpay", parent.document).attr("class", "disappear");
+    setTimeout(() => {
+      $("#naverpay", parent.document).css("display", "none");
     }, 1000);
   }
 }
